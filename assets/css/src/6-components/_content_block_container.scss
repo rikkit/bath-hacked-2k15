@@ -1,0 +1,6 @@
+.content_block_container {
+    @include flex;
+    @include flex-row;
+    @include flex-wrap;
+    @include flex-space-between;
+}

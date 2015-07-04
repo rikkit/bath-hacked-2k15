@@ -1,0 +1,14 @@
+.header {
+	@extend %margin-left-right-auto;
+	@extend %align-center;
+	
+	max-width: $content-width;
+	margin-top: $half-spacing-unit;
+	margin-bottom: $half-spacing-unit;
+	
+	background: $brand;
+	
+	@media #{$media-med} {
+		@include align-left;
+	}
+}

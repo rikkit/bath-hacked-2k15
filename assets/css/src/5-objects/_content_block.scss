@@ -1,0 +1,77 @@
+.content_block {
+    @extend %inline-block;
+    // display: flex is being used to create equal height siblings, flex-direction: column to prevent that causing content to display incorrectly as a result of that
+    @include flex;
+    @include flex-column;
+
+    margin-bottom: $half-spacing-unit;
+
+    border: black solid 2px;
+
+    padding: $quarter-spacing-unit;
+
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    
+
+    @media #{$media-med} {
+        &:nth-last-child(1):first-child, 
+        &:nth-last-child(1):first-child ~ * {
+
+            @include full-height-width;
+
+            flex-basis: 100%;
+
+            border-color: green;
+
+        }
+
+        &:nth-last-child(2):first-child, 
+        &:nth-last-child(2):first-child ~ * {
+
+            width: 49%;
+            flex-basis: 49%;
+            border-color: blue;
+
+        }
+
+        &:nth-last-child(3):first-child,
+        &:nth-last-child(3):first-child ~ *  {
+
+            width: 100%;
+            flex-basis: 100%;
+            border-color: orange;
+
+        }
+
+        &:nth-last-child(3):first-child ~ * {
+
+            width: 49%;
+            flex-basis: 49%;
+
+        }
+
+        &:nth-last-child(4):first-child,
+        &:nth-last-child(4):first-child ~ * {
+
+            width: 49%;
+            flex-basis: 49%;
+
+            border-color: red;
+
+        }
+    }
+
+    &__title {
+        margin-top: 0;
+    }
+
+    &__body {
+
+    }
+
+    &__cta {
+
+    }
+
+}

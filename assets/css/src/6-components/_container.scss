@@ -1,0 +1,11 @@
+.container {
+	@extend %margin-left-right-auto;
+	max-width: $content-width;
+	padding: 0 $quarter-spacing-unit;
+	
+	background-color: white;
+
+	@media #{$media-large} {
+		padding: 0 $half-spacing-unit;
+	}
+}

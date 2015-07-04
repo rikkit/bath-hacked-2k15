@@ -1,0 +1,138 @@
+body {
+	font-family: arial;
+	font-size: 100%;
+	color: $base_grey;
+}
+
+%bold {
+	font-weight: bold;
+}
+
+strong, b {
+	@extend %bold;
+}
+
+%italic {
+	font-style: italic;
+}
+
+em, i, cite {
+	@extend %italic;
+}
+
+figcaption {
+	color: $lightest-grey;
+}
+
+cite {
+	color: $lightest-grey;
+}
+
+small {
+	@extend %mega-small;
+}
+
+abbr, dfn {
+	&[title] {
+		border-bottom: 1px dotted;
+		cursor: help;
+	}
+}
+
+sub, sup {
+	@extend %mega-small;
+  	line-height: 90%;
+}
+sub {
+  	vertical-align: sub;
+}
+
+sup {
+  	vertical-align: super;
+}
+
+p {
+	@extend %paragraph-size;
+	margin-bottom: $quarter-spacing-unit;
+}
+
+a {
+	@extend %default-transition;
+	color: inherit;
+}
+
+ul {
+	margin-left: rem($half-spacing-unit);
+	margin-bottom: rem($quarter-spacing-unit);
+}
+
+ol {
+	margin-left: rem($three-quarter-spacing-unit);
+	margin-bottom: rem($quarter-spacing-unit);
+}
+
+li {
+	@extend %paragraph-size;
+	margin-bottom: rem($tiny-spacing-unit);
+}
+
+dl {
+	margin-bottom: rem($quarter-spacing-unit);
+}
+
+dt {
+	@extend %bold;
+	margin-bottom: rem($tiny-spacing-unit);
+}
+
+dd {
+	margin-left: rem($three-quarter-spacing-unit);
+	margin-bottom: rem($quarter-spacing-unit);
+}
+
+blockquote {
+	padding-left: $quarter-spacing-unit;
+	border-left: $brand 5px solid;
+	> p {
+		@extend %paragraph-size;
+	}
+}
+
+h1, h2 ,h3, h4, h5, h6 {
+	@extend %text-transform-upper;
+	
+	font-family: 'Nunito', sans-serif;
+	font-weight: normal;
+
+}
+
+h1 {
+	font-size: rem(30px);
+	line-height: rem(35px);
+	margin: 0 0 0.8em 0;
+
+	.lt-ie9 & {
+		font-size: 38px;
+		line-height: 40px;
+	}
+}
+
+h2 {
+	@extend %heading-2-size;
+	margin: 0.9em 0 0.6em 0;
+}
+
+h3 {
+	@extend %heading-3-size;
+	margin: 0.8em 0 0.7em 0;
+}
+
+h4 {
+	@extend %heading-4-size;
+	margin: 0.8em 0 0.7em 0;
+}
+
+h5 {
+	@extend %heading-5-size;
+	margin: 0.8em 0 0.7em 0;
+}

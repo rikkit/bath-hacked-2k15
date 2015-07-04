@@ -1,0 +1,111 @@
+.form {
+	&__legend {
+		@extend %heading-3-size;
+		
+		font-family: 'Nunito', sans-serif;
+		font-weight: normal;
+		
+		margin-bottom: $small-spacing-unit;
+	}
+	
+	&__heading {
+		margin-bottom: $small-spacing-unit;
+	}
+	
+	&__label {
+		@extend %block;
+		margin-bottom: $quarter-spacing-unit;
+		
+		&--radio, &--checkbox {
+			margin-right: $small-spacing-unit;
+			
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+		
+		&--radio {
+			@include inline-block;
+		}
+		
+		&--checkbox {
+			@include inline-block;
+		}
+	}
+	
+	&__text_field {
+		@extend %short-transition;
+		@extend %inline-block;
+		
+		transform: scale(1);
+		
+		border: 1px solid $brand;
+		outline: 0px;
+		padding: $quarter-spacing-unit $small-spacing-unit;
+		
+		&:focus, &:hover {
+			border: 1px solid black;
+		}
+		
+		&:focus {
+			transform: scale(1.1);
+			background-color: $off-white;
+		}
+		
+		&--tiny {
+			width: 60px;
+		}
+		
+		&--full {
+			width: 100%;
+			
+			&:focus {
+				transform: none;
+			}
+		}
+	}
+	
+	&__text_area_field {
+		@extend %inline-block;
+		
+		&--no-resize {
+			resize: none;
+		}
+	}
+	
+	&__select {
+		@extend %inline-block;
+		
+		border: 1px solid $brand;
+		color: $base_grey;
+		padding: $quarter-spacing-unit $small-spacing-unit;
+		
+		&:focus {
+			transform: scale(1.1);
+			background-color: $off-white;
+		}
+	}
+	
+	&__field_group {
+		@extend %block;
+		margin-bottom: $half-spacing-unit;
+	}
+	
+	&__element_wrapper {
+		margin-bottom: $half-spacing-unit;
+	}
+	
+	&__checkbox, &__radio {
+		margin: 0;
+	}
+	
+	&__radio {
+	}
+	
+	&__checkbox {
+	}
+	
+	&__button {
+
+	}
+}

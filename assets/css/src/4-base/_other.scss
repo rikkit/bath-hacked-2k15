@@ -1,0 +1,58 @@
+img {
+	@extend %max-width-100;
+}
+
+// Only current multi-browser styling of placeholder text in form fields
+::-webkit-input-placeholder, ::-webkit-textarea-placeholder { /* WebKit browsers */
+	color: $light-grey;
+	opacity: 0.75;
+}
+
+input:-moz-placeholder, textarea:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+	color: $light-grey;
+	opacity: 0.75;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+	color: $light-grey;
+	opacity: 0.75;
+}
+
+input:-ms-input-placeholder, textarea:-ms-input-placeholder { /* Internet Explorer 10+ */
+	color: $light-grey;
+	opacity: 0.75;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+caption {
+	@extend %align-left;
+	@extend %small;
+	caption-side: bottom;
+	color: #999;
+	line-height: 1.3334; /* 16px */
+	margin: 1em 0; /* 12px 0 */
+}
+
+td, th {
+	@extend %align-left;
+	border-bottom: 1px solid $brand;
+	padding: 0.375em 2em 0.375em 0; /* 6px 32px 6px 0 */
+	vertical-align: top;
+}
+
+th {
+	@extend %bold;
+	padding-bottom: rem($tiny-spacing-unit); /* 8px */
+}
+
+thead th {
+	border-bottom: 2px solid #ddd;
+}
+
+* + * {
+    margin-bottom: rem($half-spacing-unit);
+}
