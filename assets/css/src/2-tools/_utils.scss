@@ -1,0 +1,14 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+// Font size functions
+// px to em converter 		
+@function em($px, $base: $base-font-size) {
+    @return ($px / $base) * 1em;
+}
+
+// px to rem convertor
+@function rem($px, $base: $base-font-size) {
+    @return ($px / $base) * 1rem;
+}

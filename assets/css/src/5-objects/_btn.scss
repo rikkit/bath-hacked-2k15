@@ -1,0 +1,26 @@
+.button {
+	@extend %inline-block;
+	@extend %border-zero;
+	@extend %short-transition;
+	@extend %border-radius-small;
+	@extend %decoration-none;
+	
+	-webkit-appearance: none;
+	background-color: $secondary-brand;
+	color: white;
+	padding: $quarter-spacing-unit $small-spacing-unit;
+	
+	margin-bottom: $half-spacing-unit;
+	
+	&:hover, &:focus {
+		color: $secondary-brand;
+		background-color: white;
+		border: 1px solid $secondary-brand;
+	}
+	
+	&--fancy {
+		&:hover, &:focus {
+			transform: scale(1.15);
+		}
+	}
+}

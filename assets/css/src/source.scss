@@ -1,0 +1,149 @@
+@import "1-settings/settings";
+@import "2-tools/utils";
+@import "3-generic/reset";
+@import "3-generic/placeholders";
+@import "4-base/other";
+@import "4-base/type";
+
+h4, h5, h6 {
+	@extend %text-transform-none;
+}
+
+.source_container {
+	max-width: $content-width;
+	@extend %margin-left-right-auto;
+	@extend %position-relative;
+}
+
+.source_header, .source_footer {
+	background: $brand;
+	padding: $half-spacing-unit;
+	clear: both;
+}
+
+.source_header {
+	overflow: auto;
+}
+
+.source_footer {
+	margin-top: $half-spacing-unit;
+}
+
+.source_main {
+	clear: both;
+	max-width: $max-content-width;
+}
+
+.source_main_nav {
+
+	background: $brand;
+	padding: $half-spacing-unit;
+
+	margin-bottom: $half-spacing-unit;
+
+	@media #{$media-x-large} {
+		@include position-absolute;
+		
+		max-width: 265px;
+
+		right: 0;
+
+	}
+
+}
+
+.source_section {
+	border: $brand 1px solid;
+	margin-bottom: $half-spacing-unit;
+	padding: $half-spacing-unit;
+}
+
+.source_logo {
+
+}
+
+.source_col__23 {
+	float: left;
+}
+
+.__14 {
+	float: right;
+}
+
+.source_header_nav {
+
+}
+
+.source_header_nav_lst {
+	margin-left: 0;
+}
+
+.source_header_nav_i {
+	@extend %inline-block;
+}
+
+.source_ul {
+	text-decoration: underline;
+
+	li {
+		@extend %inline-block;
+		@extend %list-reset;
+		margin-right: $tiny-spacing-unit;
+	}
+}
+
+.source_section_h {
+	text-decoration: underline;
+}
+
+//Navigation
+.source_catalog_list {
+	@extend %list-reset;
+}
+.source_catalog_list_i {
+	margin-bottom: $half-spacing-unit;
+}
+
+.source_sort-list {
+	@extend %list-reset;
+}
+
+.source_sort-list_li {
+	@extend %inline-block;
+	margin-right: $tiny-spacing-unit;
+
+}
+
+.source_catalog {
+	border: $brand 1px solid;
+	margin-bottom: $half-spacing-unit;
+	padding: $quarter-spacing-unit;
+}
+
+.source_catalog_title {
+	@extend %heading-2-size
+}
+
+.swatch {
+	height: 40px;
+	width: 40px;
+}
+
+.source_source-code__min {
+	display: none;
+}
+
+.source_catalog_img {
+	display: none;
+}
+
+.__show-preview {
+	.source_catalog_img {
+		display: block;
+	}
+}
+
+.source_doc {
+	@extend %border-radius-small;
+	background: yellow;
+}

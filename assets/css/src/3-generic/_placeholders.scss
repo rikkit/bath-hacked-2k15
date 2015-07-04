@@ -1,0 +1,494 @@
+// Resets
+@mixin list-reset {
+    list-style: none;
+}
+
+%list-reset {
+    @include list-reset;
+}
+
+@mixin decoration-none {
+	text-decoration: none;
+}
+
+%decoration-none {
+	@include decoration-none;
+}
+
+@mixin reset-margin {
+	margin: 0;
+}
+
+%reset-margin {
+	@include reset-margin;
+}
+
+@mixin reset-margin-bottom {
+	margin-bottom: 0;
+}
+
+%reset-margin-bottom {
+	@include reset-margin-bottom;
+}
+
+//Type placeholders
+
+@mixin body-font-family {
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+}
+
+%body-font-family {
+	@include body-font-family;
+}
+
+@mixin header-font-family {
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+}
+
+%header-font-family {
+	@include header-font-family;
+}
+
+@mixin paragraph-size {
+	font-size: rem(16px);
+	line-height: rem(20px);
+}
+
+%paragraph-size {
+	@include paragraph-size;
+}
+
+@mixin large-paragraph-size {
+	font-size: rem(18px);
+	line-height: rem(22px);
+}
+
+%large-paragraph-size {
+	@include large-paragraph-size;
+}
+
+@mixin intro-paragraph-size {
+	font-size: rem(20px);
+	line-height: rem(25px);
+}
+
+%intro-paragraph-size {
+	@include intro-paragraph-size;
+}
+
+@mixin large-heading-size {
+	font-size: rem(45px);
+	line-height: rem(30px);
+}
+
+%large-heading-size {
+	@include large-heading-size;
+}
+
+@mixin heading-1-size {
+	font-size: rem(25px);
+	line-height: rem(40px);
+}
+
+%heading-1-size {
+	@include heading-1-size;
+}
+
+@mixin heading-2-size {
+	font-size: rem(20px);
+	line-height: rem(20px);
+}
+
+%heading-2-size {
+	@include heading-2-size;
+}
+
+@mixin heading-3-size {
+	font-size: rem(18px);
+	line-height: rem(22px);
+}
+
+%heading-3-size {
+	@include heading-3-size;
+}
+
+@mixin heading-4-size {
+	font-size: rem(16px);
+}
+
+%heading-4-size {
+	@include heading-4-size;
+}
+
+@mixin heading-5-size {
+	font-size: rem(16px);
+}
+
+%heading-5-size {
+	@include heading-5-size;
+}
+
+@mixin heading-6-size {
+	font-size: rem(15px);
+}
+
+%heading-6-size {
+	@include heading-6-size;
+}
+
+@mixin text-transform-lower {
+	text-transform: lowercase;
+}
+
+%text-transform-lower {
+	@include text-transform-lower;
+}
+
+@mixin text-transform-upper {
+	text-transform: uppercase;
+}
+
+%text-transform-upper {
+	@include text-transform-upper;
+}
+
+@mixin text-transform-none {
+	text-transform: none;
+}
+
+%text-transform-none {
+	@include text-transform-none;
+}
+
+@mixin weight-normal {
+	font-weight: normal;
+}
+
+%weight-normal {
+	@include weight-normal;
+}
+
+@mixin weight-bold {
+	font-weight: bold;
+}
+
+%weight-bold {
+	@include weight-bold;
+}
+
+@mixin small {
+	font-size: rem(12px);
+}
+
+%small {
+	@include small;
+}
+
+@mixin mega-small {
+	font-size: rem(10px);
+}
+
+%mega-small {
+	@include mega-small;
+}
+
+// Alignments
+@mixin align-left {
+	text-align: left;
+}
+
+%align-left {
+	@include align-left;
+}
+
+@mixin align-center {
+	text-align: center;
+}
+
+%align-center {
+	@include align-center;
+}
+
+@mixin align-right {
+	text-align: right;
+}
+
+%align-right {
+	@include align-right;
+}
+
+// Common display options
+@mixin inline {
+	display: inline;
+}
+
+%inline {
+	@include inline;
+}
+
+@mixin inline-block {
+	display: inline-block;
+}
+
+%inline-block {
+	@include inline-block;
+}
+
+@mixin block {
+	display: block;
+}
+
+%block {
+	@include block;
+}
+
+@mixin flex {
+	display: flex;
+}
+
+%flex {
+	@include flex;
+}
+
+// Flexbox specific
+@mixin flex-row {
+	flex-direction: row;
+}
+
+%flex-row {
+	@include flex-row;
+}
+
+@mixin flex-column {
+	flex-direction: column;
+}
+
+%flex-column {
+	@include flex-column;
+}
+
+@mixin flex-wrap {
+	flex-wrap: wrap;
+}
+
+%flex-wrap {
+	@include flex-wrap;
+}
+
+@mixin flex-space-between {
+	justify-content: space-between;
+}
+
+%flex-space-between {
+	@include flex-space-between;
+}
+
+@mixin flex-space-around {
+	justify-content: space-around;
+}
+
+%flex-space-around {
+	@include flex-space-around;
+}
+
+@mixin flex-center {
+	justify-content: center;
+}
+
+%flex-center {
+	@include flex-center;
+}
+
+@mixin flex-cross-space-between {
+	align-content: space-between;
+}
+
+%flex-cross-space-between {
+	@include flex-cross-space-between;
+}
+
+@mixin flex-cross-space-around {
+	align-content: space-around;
+}
+
+%flex-cross-space-around {
+	@include flex-cross-space-around;
+}
+
+@mixin flex-align-center {
+	align-items: center;
+}
+
+%flex-align-center {
+	@include flex-align-center;
+}
+
+@mixin flex-align-inherit {
+	align-items: inherit;
+}
+
+%flex-align-inherit {
+	@include flex-align-inherit;
+}
+
+// Common dimensions
+
+@mixin full-height {
+	height: $full;
+}
+
+%full-height {
+	@include full-height;
+}
+
+@mixin full-width {
+	width: $full;
+}
+
+%full-width {
+	@include full-width;
+}
+
+@mixin max-width-100 {
+	max-width: 100%;
+}
+
+%max-width-100 {
+	@include max-width-100;
+}
+
+@mixin content-width {
+	max-width: $content-width;
+}
+
+%content-width {
+	@include content-width;
+}
+
+@mixin full-height-width {
+	height: $full;
+	width: $full;
+}
+
+%full-height-width {
+	@include full-height-width;
+}
+
+// ui
+@mixin ir {
+	text-indent: -9999px;
+}
+
+%ir {
+	@include ir;
+}
+
+@mixin background-contain {
+	background-size: contain;
+}
+
+%background-contain {
+	@include background-contain;
+}
+
+@mixin background-cover {
+	background-size: cover;
+}
+
+%background-cover {
+	@include background-cover;
+}
+
+@mixin background-no-repeat {
+	background-repeat: no-repeat;
+}
+
+%background-no-repeat {
+	@include background-no-repeat;
+}
+
+@mixin border-radius-small {
+	border-radius: rem(3px);
+}
+
+%border-radius-small {
+	@include border-radius-small;
+}
+
+@mixin border-zero {
+	border: 0;
+}
+
+%border-zero {
+	@include border-zero;
+}
+
+@mixin default-transition {
+	transition: all 0.5s ease-in-out;
+}
+
+%default-transition {
+	@include default-transition;
+}
+
+@mixin short-transition {
+	transition: all 0.25s ease-in-out;
+}
+
+%short-transition {
+	@include short-transition;
+}
+
+@mixin overflow-hidden {
+	overflow: hidden;
+}
+
+%overflow-hidden {
+	@include overflow-hidden;
+}
+
+
+// Positions
+
+@mixin position-absolute {
+	position: absolute;
+}
+
+%position-absolute {
+	@include position-absolute;
+}
+
+@mixin position-relative {
+	position: relative;
+}
+
+%position-relative {
+	@include position-relative;
+}
+
+@mixin position-static {
+	position: static;
+}
+
+%position-static {
+	@include position-static;
+}
+
+@mixin position-fixed {
+	position: fixed;
+}
+
+%position-fixed {
+	@include position-fixed;
+}
+
+// Margins
+
+@mixin margin-left-right-auto {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+%margin-left-right-auto {
+	@include margin-left-right-auto;
+}

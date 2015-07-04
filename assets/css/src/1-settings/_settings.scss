@@ -1,0 +1,53 @@
+$base-font-size: 16px;
+$smaller-font-size: 14px;
+
+$page_background: #f5f2ed;
+$base_grey: #666666;
+$dark_grey: #828282;
+$light-grey: #808080;
+$lightest-grey: #999999;
+$bg-grey: #ebebeb;
+
+$off-white: #f3f3f3;
+
+$break-med: 40em;
+$break-large: 60em;
+
+$brand: #d6d6d6; //Grey
+$secondary-brand: rgb(121, 185, 40); //Green
+
+// ************************************************************************* //
+// ************************************************************************* //
+// **************************** Spacing & measurements ********************* //
+// ************************************************************************* //
+// ************************************************************************* //
+
+$tiny-spacing-unit: 5px;
+$quarter-spacing-unit: 10px;
+$small-spacing-unit: 15px;
+$half-spacing-unit: 20px;
+$three-quarter-spacing-unit: 30px;
+$base-spacing-unit: 40px;
+$larger-spacing-unit: 50px;
+$xlarger-spacing-unit: 60px;
+$mega-spacing-unit: 70px;
+$giga-spacing-unit: 80px;
+
+$full: 100%;
+$three-quarters: 75%;
+$two-thirds: 66%;
+$half: 50%;
+$third: 33%;
+$quarter: 25%;
+$tenth: 10%;
+
+// Custom dimensions aka magic numbers
+$content-width: 940px;
+$max-content-width: 660px; //<p>, <blockquote>
+
+// Media queries
+$media-small: "only screen and (min-width : 300px)";
+$media-med: "only screen and (min-width : 500px)";
+$media-large: "only screen and (min-width : 700px)";
+$media-x-large: "only screen and (min-width : 900px)";
+$media-xx-large: "only screen and (min-width : 1100px)";
