@@ -1,0 +1,27 @@
+.nav {
+	&__list {
+		@extend %reset-margin;
+	}
+
+	&__item {
+		@extend %inline-block;
+
+		&:last-child {
+			.nav__link {
+				border-right: 0;
+			}
+		}
+	}
+
+	&__link {
+		@extend %decoration-none;
+		padding-left: $small-spacing-unit;
+		padding-right: $small-spacing-unit;
+		border-right: 1px solid $lightest-grey;
+		
+		&:hover, &--active {
+			color: white;
+			background-color: $lightest-grey;
+		}
+	}
+}

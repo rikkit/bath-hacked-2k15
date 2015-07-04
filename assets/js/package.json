@@ -1,0 +1,45 @@
+{
+  "jspm": {
+    "directories": {
+      "baseURL": "js",
+      "packages": "jspm_packages"
+    },
+    "configFile": "config.js",
+    "dependencies": {
+      "fetch": "github:github/fetch@^0.8.2",
+      "handlebars": "github:components/handlebars.js@^3.0.3",
+      "jeromegn/Backbone.localStorage": "github:jeromegn/Backbone.localStorage@^1.1.16",
+      "lodash": "npm:lodash@^3.8.0",
+      "react": "npm:react@^0.14.0-alpha2",
+      "velesin/jasmine-jquery": "github:velesin/jasmine-jquery@^2.1.0"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.1.13",
+      "babel-runtime": "npm:babel-runtime@^5.1.13",
+      "core-js": "npm:core-js@^0.9.4"
+    },
+    "overrides": {
+      "github:github/fetch@0.8.2": {
+        "registry": "npm"
+      }
+    }
+  },
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "jasmine-core": "^2.3.2",
+    "jasmine-es6-promise-matchers": "^2.0.0",
+    "karma": "^0.12.31",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^0.1.8",
+    "karma-firefox-launcher": "^0.1.4",
+    "karma-fixture": "^0.2.3",
+    "karma-growl-reporter": "^0.1.1",
+    "karma-ie-launcher": "^0.1.5",
+    "karma-jasmine": "^0.3.5",
+    "karma-jasmine-ajax": "^0.1.12",
+    "karma-jasmine-jquery": "^0.1.1",
+    "karma-jspm": "^1.1.5",
+    "karma-mocha": "^0.1.10",
+    "mocha": "^2.2.4"
+  }
+}
