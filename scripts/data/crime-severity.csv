@@ -1,0 +1,16 @@
+category, severity
+possession-of-weapons, 10
+public-disorder-weapons, 10
+criminal-damage-arson, 10
+violent-crime, 10
+robbery, 9
+burglary, 8
+drugs, 7
+theft-from-the-person, 6
+vehicle-crime, 5
+other-crime, 5
+anti-social-behaviour, 4
+public-order, 3
+bicycle-theft, 3
+other-theft, 2
+shoplifting, 1

@@ -1,0 +1,726 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "2pme-edif",
+      "name" : "Bath Bar & Pub closing times",
+      "attribution" : "Data provided by NightCapp under CC-BY-SA-4",
+      "attributionLink" : "http://nightcapp.co/",
+      "averageRating" : 0,
+      "category" : "Economy",
+      "createdAt" : 1413734053,
+      "description" : "The locations and closing times of a selection of bars & pubs in Bath, as provided by NightCapp.",
+      "displayType" : "table",
+      "downloadCount" : 7,
+      "iconUrl" : "fileId:fma9uNo2Ai-tQlRwzVkGwnJaRTDxY25EbHuyf3rCpk8",
+      "indexUpdatedAt" : 1413745268,
+      "licenseId" : "CC_30_BY_SA",
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 17535,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1413735058,
+      "publicationGroup" : 12264,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowIdentifierColumnId" : 198251,
+      "rowsUpdatedAt" : 1413735021,
+      "rowsUpdatedBy" : "j2nn-m7j9",
+      "tableId" : 12264,
+      "totalTimesRated" : 0,
+      "viewCount" : 78,
+      "viewLastModified" : 1413745266,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : 198251,
+        "name" : "id",
+        "dataTypeName" : "text",
+        "fieldName" : "id",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 127291,
+        "width" : 124,
+        "cachedContents" : {
+          "non_null" : 165,
+          "smallest" : "00eb23eea12b384f96f6e5a288d53bd0",
+          "null" : 0,
+          "largest" : "ff246d721010346141e0b0bd87f4bcd1",
+          "top" : [ {
+            "count" : 20,
+            "item" : "7e5d46c62d7489d4005a60c9123484a8"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 198252,
+        "name" : "name",
+        "dataTypeName" : "text",
+        "fieldName" : "name",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 127292,
+        "width" : 148,
+        "cachedContents" : {
+          "non_null" : 165,
+          "smallest" : "Alehouse",
+          "null" : 0,
+          "largest" : "Zero Zero",
+          "top" : [ {
+            "count" : 20,
+            "item" : "The Second Bridge"
+          }, {
+            "count" : 19,
+            "item" : "Po Na Na"
+          }, {
+            "count" : 18,
+            "item" : "Revolution"
+          }, {
+            "count" : 17,
+            "item" : "The Curfew Inn"
+          }, {
+            "count" : 16,
+            "item" : "Slug and Lettuce"
+          }, {
+            "count" : 15,
+            "item" : "Devonshire Arms"
+          }, {
+            "count" : 14,
+            "item" : "The Grapes"
+          }, {
+            "count" : 13,
+            "item" : "Star Inn"
+          }, {
+            "count" : 12,
+            "item" : "The Salamander"
+          }, {
+            "count" : 11,
+            "item" : "The Porter"
+          }, {
+            "count" : 10,
+            "item" : "Belushi’s"
+          }, {
+            "count" : 9,
+            "item" : "The Bath Brew House"
+          }, {
+            "count" : 8,
+            "item" : "The Cork"
+          }, {
+            "count" : 7,
+            "item" : "St Christophers Inn"
+          }, {
+            "count" : 6,
+            "item" : "Circo Bar & Lounge"
+          }, {
+            "count" : 5,
+            "item" : "Gascoyne Place"
+          }, {
+            "count" : 4,
+            "item" : "Flan O’Briens"
+          }, {
+            "count" : 3,
+            "item" : "Moles"
+          }, {
+            "count" : 2,
+            "item" : "The Trinity"
+          }, {
+            "count" : 1,
+            "item" : "King Of Wessex"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 198253,
+        "name" : "postcode",
+        "dataTypeName" : "text",
+        "fieldName" : "postcode",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 127293,
+        "width" : 196,
+        "cachedContents" : {
+          "non_null" : 165,
+          "smallest" : "BA1 1AP",
+          "null" : 0,
+          "largest" : "BA2 6PA",
+          "top" : [ {
+            "count" : 20,
+            "item" : "BA1 2EB"
+          }, {
+            "count" : 19,
+            "item" : "BA1 1HE"
+          }, {
+            "count" : 18,
+            "item" : "BA1 2EE"
+          }, {
+            "count" : 17,
+            "item" : "BA1 2JY"
+          }, {
+            "count" : 16,
+            "item" : "BA1 2TW"
+          }, {
+            "count" : 15,
+            "item" : "BA1 5NA"
+          }, {
+            "count" : 14,
+            "item" : "BA1 2JL"
+          }, {
+            "count" : 13,
+            "item" : "BA1 2QS"
+          }, {
+            "count" : 12,
+            "item" : "BA1 1EB"
+          }, {
+            "count" : 11,
+            "item" : "BA2 4BQ"
+          }, {
+            "count" : 10,
+            "item" : "BA1 2EY"
+          }, {
+            "count" : 9,
+            "item" : "BA1 5DG"
+          }, {
+            "count" : 8,
+            "item" : "BA2 4AL"
+          }, {
+            "count" : 7,
+            "item" : "BA1 5LS"
+          }, {
+            "count" : 6,
+            "item" : "BA1 1EY"
+          }, {
+            "count" : 5,
+            "item" : "BA1 2QP"
+          }, {
+            "count" : 4,
+            "item" : "BA1 1EP"
+          }, {
+            "count" : 3,
+            "item" : "BA1 5BG"
+          }, {
+            "count" : 2,
+            "item" : "BA1 1JQ"
+          }, {
+            "count" : 1,
+            "item" : "BA1 2EN"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 198254,
+        "name" : "day",
+        "dataTypeName" : "text",
+        "fieldName" : "day",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 127294,
+        "width" : 136,
+        "cachedContents" : {
+          "non_null" : 165,
+          "smallest" : "Friday",
+          "null" : 0,
+          "largest" : "Tuesday",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Friday"
+          }, {
+            "count" : 19,
+            "item" : "Monday"
+          }, {
+            "count" : 18,
+            "item" : "Saturday"
+          }, {
+            "count" : 17,
+            "item" : "Sunday"
+          }, {
+            "count" : 16,
+            "item" : "Tuesday"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 198255,
+        "name" : "closingtime",
+        "dataTypeName" : "text",
+        "fieldName" : "closingtime",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 127295,
+        "width" : 232,
+        "cachedContents" : {
+          "non_null" : 165,
+          "smallest" : "0:00",
+          "null" : 0,
+          "largest" : "4:00",
+          "top" : [ {
+            "count" : 20,
+            "item" : "0:00"
+          }, {
+            "count" : 19,
+            "item" : "0:30"
+          }, {
+            "count" : 18,
+            "item" : "1:00"
+          }, {
+            "count" : 17,
+            "item" : "2:00"
+          }, {
+            "count" : 16,
+            "item" : "2:30"
+          }, {
+            "count" : 15,
+            "item" : "3:00"
+          }, {
+            "count" : 14,
+            "item" : "4:00"
+          }, {
+            "count" : 13,
+            "item" : "00:30"
+          }, {
+            "count" : 12,
+            "item" : "23:00"
+          }, {
+            "count" : 11,
+            "item" : "23:30"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 198256,
+        "name" : "Location",
+        "dataTypeName" : "location",
+        "fieldName" : "location",
+        "position" : 7,
+        "renderTypeName" : "location",
+        "tableColumnId" : 127296,
+        "width" : 196,
+        "cachedContents" : {
+          "non_null" : 165,
+          "smallest" : {
+            "longitude" : "-2.3615183",
+            "latitude" : "51.38501"
+          },
+          "null" : 0,
+          "largest" : {
+            "longitude" : "-2.3525749",
+            "latitude" : "51.3871585"
+          },
+          "top" : [ {
+            "count" : 20,
+            "item" : {
+              "longitude" : "-2.3618477",
+              "latitude" : "51.3826217"
+            }
+          }, {
+            "count" : 19,
+            "item" : {
+              "longitude" : "-2.362056346",
+              "latitude" : "51.38517287"
+            }
+          }, {
+            "count" : 18,
+            "item" : {
+              "longitude" : "-2.3604584",
+              "latitude" : "51.3836937"
+            }
+          }, {
+            "count" : 17,
+            "item" : {
+              "longitude" : "-2.3615183",
+              "latitude" : "51.38501"
+            }
+          }, {
+            "count" : 16,
+            "item" : {
+              "longitude" : "-2.367554025",
+              "latitude" : "51.3882653"
+            }
+          }, {
+            "count" : 15,
+            "item" : {
+              "longitude" : "-2.3599813",
+              "latitude" : "51.3871152"
+            }
+          }, {
+            "count" : 14,
+            "item" : {
+              "longitude" : "-2.362078271",
+              "latitude" : "51.38343425"
+            }
+          }, {
+            "count" : 13,
+            "item" : {
+              "longitude" : "-2.3628356",
+              "latitude" : "51.3847244"
+            }
+          }, {
+            "count" : 12,
+            "item" : {
+              "longitude" : "-2.3623316",
+              "latitude" : "51.3806949"
+            }
+          }, {
+            "count" : 11,
+            "item" : {
+              "longitude" : "-2.3570824",
+              "latitude" : "51.3831512"
+            }
+          }, {
+            "count" : 10,
+            "item" : {
+              "longitude" : "-2.3609377",
+              "latitude" : "51.3852571"
+            }
+          }, {
+            "count" : 9,
+            "item" : {
+              "longitude" : "-2.3571185",
+              "latitude" : "51.3900424"
+            }
+          }, {
+            "count" : 8,
+            "item" : {
+              "longitude" : "-2.3565983",
+              "latitude" : "51.3806683"
+            }
+          }, {
+            "count" : 7,
+            "item" : {
+              "longitude" : "-2.3604623",
+              "latitude" : "51.38531725"
+            }
+          }, {
+            "count" : 6,
+            "item" : {
+              "longitude" : "-2.361809",
+              "latitude" : "51.3824068"
+            }
+          }, {
+            "count" : 5,
+            "item" : {
+              "longitude" : "-2.361793362",
+              "latitude" : "51.38615989"
+            }
+          }, {
+            "count" : 4,
+            "item" : {
+              "longitude" : "-2.36165962",
+              "latitude" : "51.38133209"
+            }
+          }, {
+            "count" : 3,
+            "item" : {
+              "longitude" : "-2.3592388",
+              "latitude" : "51.3874595"
+            }
+          }, {
+            "count" : 2,
+            "item" : {
+              "longitude" : "-2.3571527",
+              "latitude" : "51.3789327"
+            }
+          }, {
+            "count" : 1,
+            "item" : {
+              "longitude" : "-2.361218",
+              "latitude" : "51.384999"
+            }
+          } ]
+        },
+        "format" : {
+        },
+        "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Creative Commons Attribution-Share Alike 3.0 Unported",
+        "logoUrl" : "images/licenses/cc30bysa.png",
+        "termsLink" : "http://creativecommons.org/licenses/by-sa/3.0/legalcode"
+      },
+      "metadata" : {
+        "custom_fields" : {
+          "Additional Licence Detail" : {
+            "Licence URL" : "http://creativecommons.org/licenses/by-sa/4.0/",
+            "Additional Licence Information" : "Creative Commons Attribute-ShareAlike (CC-BY-SA)"
+          },
+          "Publication" : {
+            "Update Frequency" : "On change"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rdfSubject" : "0",
+        "rowIdentifier" : "id",
+        "rdfClass" : ""
+      },
+      "owner" : {
+        "id" : "j2nn-m7j9",
+        "displayName" : "thomasfletcher",
+        "roleName" : "editor",
+        "screenName" : "thomasfletcher",
+        "rights" : [ "create_datasets", "view_domain", "create_pages", "view_goals", "view_dashboards" ]
+      },
+      "query" : {
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "j2nn-m7j9",
+        "displayName" : "thomasfletcher",
+        "roleName" : "editor",
+        "screenName" : "thomasfletcher",
+        "rights" : [ "create_datasets", "view_domain", "create_pages", "view_goals", "view_dashboards" ]
+      },
+      "tags" : [ "bars", "pubs", "restaurants", "opening" ],
+      "flags" : [ "default" ]
+    }
+  },
+  "data" : [ [ 1, "BD1A7385-0070-4CD8-91A2-F87C2767BE1D", 1, 1413734054, "497", 1413734054, "497", "{\n}", "5642e4c00419493040b880986ccd2b62", "Revolution", "BA1 2EB", "Friday", "0:00", [ null, "51.38501", "-2.3615183", null, false ] ]
+, [ 2, "D8A94755-7A42-467B-97E9-0B98BB2E86E3", 2, 1413734054, "497", 1413734054, "497", "{\n}", "5c87c0cd970e9a64a5615ae31a63a8d8", "The Canary", "BA1 1HE", "Friday", "0:00", [ null, "51.3826217", "-2.3618477", null, false ] ]
+, [ 3, "F44EFEB3-7EB5-41AE-BE66-0B4E6E4AEBDE", 3, 1413734054, "497", 1413734054, "497", "{\n}", "f419577ad3827c153bfe9b74f0543eb3", "The Curfew Inn", "BA1 5DG", "Friday", "0:00", [ null, "51.3900424", "-2.3571185", null, false ] ]
+, [ 4, "210E538F-029B-4135-B0E7-BCD644F539DF", 4, 1413734054, "497", 1413734054, "497", "{\n}", "26f72d8cb3bca09638142ebc84747610", "Slug and Lettuce", "BA1 2EE", "Friday", "0:00", [ null, "51.38517287", "-2.362056346", null, false ] ]
+, [ 5, "73FFC7A5-B330-41E5-87FE-BD4FFA038F67", 5, 1413734054, "497", 1413734054, "497", "{\n}", "399e3ec751a44d2b24b8de647ca23c8c", "The Garricks Head", "BA1 1ET", "Friday", "0:00", [ null, "51.38201063", "-2.362660774", null, false ] ]
+, [ 6, "4EC2B15C-F3B8-417C-9B76-2B5E33C49FA7", 6, 1413734054, "497", 1413734054, "497", "{\n}", "9557130089bdfa91cc9d34ed3847477a", "The Raven", "BA1 1HE", "Friday", "0:00", [ null, "51.3826217", "-2.3618477", null, false ] ]
+, [ 7, "202C4DAB-990F-4D55-B970-74210CD9EBDE", 7, 1413734054, "497", 1413734054, "497", "{\n}", "5b46beceb46dab7d783c862b04ce5ad7", "The Pulteney Arms", "BA2 6ND", "Friday", "0:00", [ null, "51.38587015", "-2.352673712", null, false ] ]
+, [ 8, "99625790-E4A0-417B-A48B-6E3DC7828F32", 8, 1413734054, "497", 1413734054, "497", "{\n}", "e5ab7f384b2b3e9e5175151bf57ac58c", "The Assembly Inn", "BA1 2QU", "Friday", "0:00", [ null, "51.3857983", "-2.3619204", null, false ] ]
+, [ 9, "A12A9E33-C437-4656-9CA3-D0CD75EC0066", 9, 1413734054, "497", 1413734054, "497", "{\n}", "05114e4fd69ff0ed841ab3ccac7d9333", "Saracens Head", "BA1 5LP", "Friday", "0:00", [ null, "51.38435155", "-2.35998027", null, false ] ]
+, [ 10, "AA78406A-7629-4CA5-9C9D-96F875C36039", 10, 1413734054, "497", 1413734054, "497", "{\n}", "82683cc1b2af4dc1c36bcaee74d05dd1", "New Inn", "BA1 2AY", "Friday", "0:00", [ null, "51.3828617", "-2.365594847", null, false ] ]
+, [ 11, "27C212F7-FEF3-49BA-AD1D-71A5F7BE5F36", 11, 1413734054, "497", 1413734054, "497", "{\n}", "b2bc63331aae3f47d25b977415e7829b", "Alehouse", "BA1 1NG", "Friday", "0:00", [ null, "51.3812608", "-2.358277", null, false ] ]
+, [ 12, "D7614E57-5D74-4CDF-A042-741B778EF8A2", 12, 1413734054, "497", 1413734054, "497", "{\n}", "95cb2b4e0744e244f3825d84fde84273", "The Chequers", "BA1 2QA", "Friday", "0:00", [ null, "51.3879331", "-2.3642838", null, false ] ]
+, [ 13, "F927AF5F-CC43-48F4-A706-07CB767F9646", 13, 1413734054, "497", 1413734054, "497", "{\n}", "6c0b9b6f935b8317be3839b3f9201803", "Volunteer Riflemans Arms", "BA1 1BH", "Friday", "0:00", [ null, "51.38267472", "-2.36058838", null, false ] ]
+, [ 14, "EB00690A-6965-411A-A347-46DFB3DD777A", 14, 1413734054, "497", 1413734054, "497", "{\n}", "da2078f99674c9ef6acdf332cff42840", "The West Gate", "BA1 1EL", "Friday", "0:00", [ null, "51.381538", "-2.361262419", null, false ] ]
+, [ 15, "4FA200CF-14DD-412A-AACC-3AF1CDAD1B9F", 15, 1413734054, "497", 1413734054, "497", "{\n}", "e2c33f6ca2cf491924859e73d16b6624", "Pig & Fiddle", "BA1 5BR", "Friday", "0:00", [ null, "51.3844738", "-2.3601015", null, false ] ]
+, [ 16, "ACA3271A-EC82-4E39-B64E-C83175B3AA99", 16, 1413734054, "497", 1413734054, "497", "{\n}", "6fa6827f5dd919e495a4c952b90ccabe", "All Bar One", "BA1 5AQ", "Friday", "0:00", [ null, "51.38188656", "-2.359384654", null, false ] ]
+, [ 17, "6C64755C-82A9-4CB3-B80C-59B352A11293", 17, 1413734054, "497", 1413734054, "497", "{\n}", "dddba254c95db43b0db9b2ca0f2b8685", "Lamb & Lion", "BA1 1QU", "Friday", "0:00", [ null, "51.38001126", "-2.360495", null, false ] ]
+, [ 18, "92DF5F9A-69CA-4040-86F5-E2618BF4AFC8", 18, 1413734054, "497", 1413734054, "497", "{\n}", "d63191a8a80b7d5e95d6940b89d93880", "Culture & Cure ", "BA1 5ED", "Friday", "0:00", [ null, "51.3884761", "-2.3619039", null, false ] ]
+, [ 19, "AC103237-DE09-4467-9209-8CE36C6397FC", 19, 1413734054, "497", 1413734054, "497", "{\n}", "e3886515ed6c24aa02ce987a4ab28710", "Cosy Club", "BA1 1AP", "Friday", "0:30", [ null, "51.37903675", "-2.358080198", null, false ] ]
+, [ 20, "544A5E12-4AF3-4F7A-B7D4-EFE2EBA57F29", 20, 1413734054, "497", 1413734054, "497", "{\n}", "3590b9d14704a58e38031aa5c35e53fc", "Graze Bar, Brewery & Chophouse", "BA1 1SX", "Friday", "0:30", [ null, "51.3774883", "-2.3568119", null, false ] ]
+, [ 21, "02A216E5-A8E9-4178-B5FA-2502C10FD990", 21, 1413734054, "497", 1413734054, "497", "{\n}", "dbf6a50ffdf2787e73f2c8e2aefa3900", "Devonshire Arms", "BA2 4RY", "Friday", "0:30", [ null, "51.3692333", "-2.3654974", null, false ] ]
+, [ 22, "40DC0661-6A50-4969-AC93-08713190A917", 22, 1413734054, "497", 1413734054, "497", "{\n}", "01428a8734cf3217ffe680ad1198d7ba", "The Grapes", "BA1 1EQ", "Friday", "0:30", [ null, "51.3814334", "-2.3614968", null, false ] ]
+, [ 23, "1C44232A-A383-44D1-8ABD-2F7B3CFECF6A", 23, 1413734054, "497", 1413734054, "497", "{\n}", "c1b2092bddc3f8f0aefc0de567939c52", "St. James Wine Vault", "BA1 2TW", "Friday", "1:00", [ null, "51.3882653", "-2.367554025", null, false ] ]
+, [ 24, "BB3F5D06-8E48-4B85-8554-D1A3D451EDB9", 24, 1413734054, "497", 1413734054, "497", "{\n}", "a31b47e02a41eb6324f40d39c288fd93", "Star Inn", "BA1 5NA", "Friday", "1:00", [ null, "51.3871152", "-2.3599813", null, false ] ]
+, [ 25, "7D35E731-30CF-4F12-BA84-B5E9DDB99C49", 25, 1413734054, "497", 1413734054, "497", "{\n}", "37cfd1ced458c5d46eaa29ea1fd50799", "The Salamander", "BA1 2JL", "Friday", "1:00", [ null, "51.38343425", "-2.362078271", null, false ] ]
+, [ 26, "3CD4A2E3-1F65-4844-A1E3-EBD59BB91FE9", 26, 1413734054, "497", 1413734054, "497", "{\n}", "869df9cfda51228a8bd733f9965b10eb", "The Porter", "BA1 2QS", "Friday", "1:00", [ null, "51.3847244", "-2.3628356", null, false ] ]
+, [ 27, "B41CA50A-D062-4D44-8EAD-46491DD5B881", 27, 1413734054, "497", 1413734054, "497", "{\n}", "82ca3edb919a5df4f55adc09f9b44bf4", "Belushi’s", "BA1 2JY", "Friday", "1:00", [ null, "51.3836937", "-2.3604584", null, false ] ]
+, [ 28, "D033B801-239E-415B-9008-96F4A50D7D28", 28, 1413734054, "497", 1413734054, "497", "{\n}", "0ac8e8da645f82b6b75ed24f7dd9a5fe", "The Slug And Lettuce", "BA1 2EY", "Friday", "1:00", [ null, "51.3852571", "-2.3609377", null, false ] ]
+, [ 29, "41FEA4F4-31AA-47BA-AFE9-A3C660B54769", 29, 1413734054, "497", 1413734054, "497", "{\n}", "e7a20348837768c61ec106892b675a8b", "The Bath Brew House", "BA1 2BX", "Friday", "1:00", [ null, "51.3810366", "-2.3649104", null, false ] ]
+, [ 30, "6C486034-2BAE-428B-8A29-75D50B1FF73E", 30, 1413734054, "497", 1413734054, "497", "{\n}", "be19c8cf1f541250f4623f9e44f827fb", "The Cork", "BA1 1EB", "Friday", "1:00", [ null, "51.3806949", "-2.3623316", null, false ] ]
+, [ 31, "FCB46BD6-5757-4546-ACE9-7984CA873D38", 31, 1413734054, "497", 1413734054, "497", "{\n}", "0eda121c08fff11ca164f78b67f7e6e7", "The Boater", "BA2 4BQ", "Friday", "1:00", [ null, "51.3831512", "-2.3570824", null, false ] ]
+, [ 32, "9522FC95-CF4E-4D08-B146-3ED997488D30", 32, 1413734054, "497", 1413734054, "497", "{\n}", "5e3a0213d36b7ad74b456721a73a1742", "St Christophers Inn", "BA1 2JY", "Friday", "1:00", [ null, "51.3836937", "-2.3604584", null, false ] ]
+, [ 33, "09B5D283-A417-45C1-8C3C-02A96F6D1CFC", 33, 1413734054, "497", 1413734054, "497", "{\n}", "68757d657b75ebd7a45ee7c8af9a4aec", "Circo Bar & Lounge", "BA2 4AA", "Friday", "1:00", [ null, "51.3801536", "-2.3569087", null, false ] ]
+, [ 34, "BAD67EA4-5CCA-4955-BBAB-CB0F36CD276D", 34, 1413734054, "497", 1413734054, "497", "{\n}", "e0b91d0c18906c58e183e03a63ba2b41", "Marlborough Tavern", "BA1 2LY", "Friday", "1:00", [ null, "51.38758136", "-2.369683114", null, false ] ]
+, [ 35, "C928DD19-7EBE-461F-A2C2-5CD75BA110FC", 35, 1413734054, "497", 1413734054, "497", "{\n}", "dd856a31c20aabd86a1140c063fd1f01", "club XL", "BA1 5BG", "Friday", "2:00", [ null, "51.3874595", "-2.3592388", null, false ] ]
+, [ 36, "620C1B80-727A-4A92-8A39-D2E2AE313C47", 36, 1413734054, "497", 1413734054, "497", "{\n}", "4a429d6b97c41bc836f78fd0812d352c", "Sub 13", "BA1 2EE", "Friday", "2:00", [ null, "51.38517287", "-2.362056346", null, false ] ]
+, [ 37, "8FDFD24D-D3E6-451F-9A6E-19EBF634FCB3", 37, 1413734054, "497", 1413734054, "497", "{\n}", "bb1ab9d5c731ffba6733039876a60d53", "Central Bar", "BA1 1RG", "Friday", "2:00", [ null, "51.3830983", "-2.3596389", null, false ] ]
+, [ 38, "DB5653C4-317F-42CD-8841-ED35545D4A24", 38, 1413734054, "497", 1413734054, "497", "{\n}", "318b1255d10580c4318b8c5b2fd0152c", "Back To Mine", "BA1 5LS", "Friday", "2:00", [ null, "51.38531725", "-2.3604623", null, false ] ]
+, [ 39, "76937C39-34FB-4164-B497-C9808E1BC6F6", 39, 1413734054, "497", 1413734054, "497", "{\n}", "0a8e32aa5f8ad2892181c7ec5600ffd7", "Gascoyne Place", "BA1 1EY", "Friday", "2:00", [ null, "51.3824068", "-2.361809", null, false ] ]
+, [ 40, "2B5CBFFF-882D-4A12-A8D1-AB79E337BD27", 40, 1413734054, "497", 1413734054, "497", "{\n}", "50e39da820d18fe3a8e518037221f6f9", "Common Room", "BA1 2QP", "Friday", "2:00", [ null, "51.38615989", "-2.361793362", null, false ] ]
+, [ 41, "47262151-3F11-4605-A614-2E3A9A26009A", 41, 1413734054, "497", 1413734054, "497", "{\n}", "2eb155695ee7d9937ffee69d1ba236c1", "Flan O’Briens", "BA1 1EP", "Friday", "2:00", [ null, "51.38133209", "-2.36165962", null, false ] ]
+, [ 42, "CA0A9E98-EDEA-4D81-9240-96867C60590C", 42, 1413734054, "497", 1413734054, "497", "{\n}", "df87d0ef7aca635d46277f81814d8af5", "The Second Bridge", "BA1 1JQ", "Friday", "2:30", [ null, "51.3789327", "-2.3571527", null, false ] ]
+, [ 43, "64C2C2C0-87A4-4821-A757-E7E4455D1F71", 43, 1413734054, "497", 1413734054, "497", "{\n}", "ff0fab91a403c3b04dad541921ecd3c8", "Po Na Na", "BA2 4AL", "Friday", "3:00", [ null, "51.3806683", "-2.3565983", null, false ] ]
+, [ 44, "DC330DE8-2E22-4057-99E6-7BADBCBFC025", 44, 1413734054, "497", 1413734054, "497", "{\n}", "68283f26481208e3a0466e6e503bb7c0", "Zero Zero", "BA1 2EB", "Friday", "3:00", [ null, "51.384999", "-2.361218", null, false ] ]
+, [ 45, "65CF4058-641B-46C0-8991-FF765809F470", 45, 1413734054, "497", 1413734054, "497", "{\n}", "4fe2040c7644d01c678f99166867cd2d", "The Weir Lounge", "BA2 6PA", "Friday", "4:00", [ null, "51.3871585", "-2.3525749", null, false ] ]
+, [ 46, "B2E6E227-A636-44B4-963C-6AFF8932EB61", 46, 1413734054, "497", 1413734054, "497", "{\n}", "bd3eb80ae77fcd0ebfeaf15d2e9b0d7e", "Revolution", "BA1 2EB", "Monday", "0:00", [ null, "51.38501", "-2.3615183", null, false ] ]
+, [ 47, "55B995BD-3580-4CAD-AD1E-8448B5A5499F", 47, 1413734054, "497", 1413734054, "497", "{\n}", "e7ab6f032f4b9b4f6502f144e377f49b", "The Canary", "BA1 1HE", "Monday", "0:00", [ null, "51.3826217", "-2.3618477", null, false ] ]
+, [ 48, "69F3957C-2460-441B-B3C0-087A6179645E", 48, 1413734054, "497", 1413734054, "497", "{\n}", "19d00e0a232939b1ad990375a83a1508", "St. James Wine Vault", "BA1 2TW", "Monday", "0:00", [ null, "51.3882653", "-2.367554025", null, false ] ]
+, [ 49, "312658D5-8236-4EC0-97DB-A2AB7E888426", 49, 1413734054, "497", 1413734054, "497", "{\n}", "a675cb85b1e942594a6b335686df5690", "Star Inn", "BA1 5NA", "Monday", "0:00", [ null, "51.3871152", "-2.3599813", null, false ] ]
+, [ 50, "C3492A9C-3918-40AE-8C70-24F4F9E2440D", 50, 1413734054, "497", 1413734054, "497", "{\n}", "9a3e44d4ce82877966ac43d4119d3222", "The Salamander", "BA1 2JL", "Monday", "0:00", [ null, "51.38343425", "-2.362078271", null, false ] ]
+, [ 51, "DDDD7592-E8D3-449E-B59C-108BBD23DD6B", 51, 1413734054, "497", 1413734054, "497", "{\n}", "50e485c8cbe913d372da632cd128d808", "The Porter", "BA1 2QS", "Monday", "0:00", [ null, "51.3847244", "-2.3628356", null, false ] ]
+, [ 52, "023ECAAA-7D88-4275-8DF1-897C1846B2D8", 52, 1413734054, "497", 1413734054, "497", "{\n}", "9f5f2829f2d2146ed6dbb543e3bf68cf", "Belushi’s", "BA1 2JY", "Monday", "0:00", [ null, "51.3836937", "-2.3604584", null, false ] ]
+, [ 53, "1AAE6C17-7E7D-40BB-8840-5083BC423E80", 53, 1413734054, "497", 1413734054, "497", "{\n}", "ee717e71cc9c149453d6aba7976ff4df", "The Cork", "BA1 1EB", "Monday", "0:00", [ null, "51.3806949", "-2.3623316", null, false ] ]
+, [ 54, "5E4B05AD-03F6-4317-9A44-7E48B63C3CEA", 54, 1413734054, "497", 1413734054, "497", "{\n}", "1f46a87971cd2ca92b8f0532b7d292d0", "The Boater", "BA2 4BQ", "Monday", "0:00", [ null, "51.3831512", "-2.3570824", null, false ] ]
+, [ 55, "C7AA6507-29FD-4B1D-B9AD-25DB0E2EF75A", 55, 1413734054, "497", 1413734054, "497", "{\n}", "c4082607a9d29f28d448c840b84935ab", "The Slug And Lettuce", "BA1 2EY", "Monday", "0:00", [ null, "51.3852571", "-2.3609377", null, false ] ]
+, [ 56, "E7CA4087-5B0D-4ADC-8A93-6024C318642A", 56, 1413734054, "497", 1413734054, "497", "{\n}", "eeceb3fb16c6a040ee87671bd2a7ef46", "The Curfew Inn", "BA1 5DG", "Monday", "0:00", [ null, "51.3900424", "-2.3571185", null, false ] ]
+, [ 57, "990AE880-E777-42C8-BA7D-0C35C083FAF7", 57, 1413734054, "497", 1413734054, "497", "{\n}", "a6888fe84e4bbf20af6b276086e33170", "Slug and Lettuce", "BA1 2EE", "Monday", "0:00", [ null, "51.38517287", "-2.362056346", null, false ] ]
+, [ 58, "6A87A058-3912-46C6-917C-25DD7F4EAC46", 58, 1413734054, "497", 1413734054, "497", "{\n}", "962d6b896060611e0ddb8fbb4370ed95", "Sub 13", "BA1 2EE", "Monday", "0:00", [ null, "51.38517287", "-2.362056346", null, false ] ]
+, [ 59, "CF32596D-AD26-4DDD-AB3C-B6B1666C7AC9", 59, 1413734054, "497", 1413734054, "497", "{\n}", "0e5778ffb6ccc5c5a0ffbe086fd6af9c", "St Christophers Inn", "BA1 2JY", "Monday", "1:00", [ null, "51.3836937", "-2.3604584", null, false ] ]
+, [ 60, "46541498-B1DF-430E-8B62-76D206D08E4D", 60, 1413734054, "497", 1413734054, "497", "{\n}", "9cfdc22a7ab6b9c2e5105666b77fc1fc", "club XL", "BA1 5BG", "Monday", "2:00", [ null, "51.3874595", "-2.3592388", null, false ] ]
+, [ 61, "EAAC3AD9-63A7-4F9A-9F39-0CA76EC3F756", 61, 1413734054, "497", 1413734054, "497", "{\n}", "7d7d3aacaec85c49428c2a62682605b6", "Back To Mine", "BA1 5LS", "Monday", "2:00", [ null, "51.38531725", "-2.3604623", null, false ] ]
+, [ 62, "3062B072-173A-4545-90D2-668C7FF47B73", 62, 1413734054, "497", 1413734054, "497", "{\n}", "d8e0b8cdc17d03acdf5d64316b9756d7", "Gascoyne Place", "BA1 1EY", "Monday", "2:00", [ null, "51.3824068", "-2.361809", null, false ] ]
+, [ 63, "C6D8DB0B-DA8D-4FCF-BEEE-3165F506C706", 63, 1413734054, "497", 1413734054, "497", "{\n}", "88b30cbea1ed597c6b0b811ef7dfa938", "Common Room", "BA1 2QP", "Monday", "2:00", [ null, "51.38615989", "-2.361793362", null, false ] ]
+, [ 64, "3F11D75E-5A4A-4E2F-BD64-EE4F0B7BFF77", 64, 1413734054, "497", 1413734054, "497", "{\n}", "bc35fc070fad7bb1d6d8227b2381dc82", "The Second Bridge", "BA1 1JQ", "Monday", "2:00", [ null, "51.3789327", "-2.3571527", null, false ] ]
+, [ 65, "16F1878F-9A28-42E0-B535-23B2B5A546B0", 65, 1413734054, "497", 1413734054, "497", "{\n}", "9b628a2e48086fbd757376d33d552845", "Po Na Na", "BA2 4AL", "Monday", "3:00", [ null, "51.3806683", "-2.3565983", null, false ] ]
+, [ 66, "43B77234-8C3C-460F-A031-58BA0D65A247", 66, 1413734054, "497", 1413734054, "497", "{\n}", "c658a5fcc10d2500e0dc1a5d9dd86308", "Moles", "BA1 2EN", "Monday", "3:00", [ null, "51.3847244", "-2.3628356", null, false ] ]
+, [ 67, "359B38A8-8834-4024-9B9F-3CD1249520E9", 67, 1413734054, "497", 1413734054, "497", "{\n}", "b6a0d4ad595992b094cdf85d49b7a427", "The Barley", "BA2 6NZ", "Saturday", "00:30", [ null, "51.3868055", "-2.3521925", null, false ] ]
+, [ 68, "5050D75B-1158-4B29-9000-219E74CDD5AB", 68, 1413734054, "497", 1413734054, "497", "{\n}", "cfc4c90e1656cafc92cdbe1ce7c3d406", "Revolution", "BA1 2EB", "Saturday", "0:00", [ null, "51.38501", "-2.3615183", null, false ] ]
+, [ 69, "32125927-9E96-448C-AA00-22EE4C88C372", 69, 1413734054, "497", 1413734054, "497", "{\n}", "d93487839da82b74bc2868872269923c", "The Canary", "BA1 1HE", "Saturday", "0:00", [ null, "51.3826217", "-2.3618477", null, false ] ]
+, [ 70, "F7FE45D0-6D2D-499D-AECC-2AAB42DEAFE1", 70, 1413734054, "497", 1413734054, "497", "{\n}", "081a40ad5b5a1f938390b3608e4936cc", "The Curfew Inn", "BA1 5DG", "Saturday", "0:00", [ null, "51.3900424", "-2.3571185", null, false ] ]
+, [ 71, "99CBAFB3-3A9B-4B91-921B-8602EAA6F304", 71, 1413734054, "497", 1413734054, "497", "{\n}", "26a0366cda0b3a6b00ecfa97b61bb744", "Slug and Lettuce", "BA1 2EE", "Saturday", "0:00", [ null, "51.38517287", "-2.362056346", null, false ] ]
+, [ 72, "99E8FAF2-2F4E-4B4D-85B5-4E7F76C57CE4", 72, 1413734054, "497", 1413734054, "497", "{\n}", "6b9711282a9fee34ec2a59643a393a86", "The Garricks Head", "BA1 1ET", "Saturday", "0:00", [ null, "51.38201063", "-2.362660774", null, false ] ]
+, [ 73, "E8B17FAE-19CD-4726-9AF8-FE41FE2B0ADE", 73, 1413734054, "497", 1413734054, "497", "{\n}", "5c996ada167f86ac6589f56af0c95d68", "The Raven", "BA1 1HE", "Saturday", "0:00", [ null, "51.3826217", "-2.3618477", null, false ] ]
+, [ 74, "F6FA5E32-C382-4291-9C23-CFCA443E5D50", 74, 1413734054, "497", 1413734054, "497", "{\n}", "a0d505de80d09ae66e87fba0e1a325ce", "The Pulteney Arms", "BA2 6ND", "Saturday", "0:00", [ null, "51.38587015", "-2.352673712", null, false ] ]
+, [ 75, "D9E40D5E-4499-4F77-AB80-37A3C6B0ECFE", 75, 1413734054, "497", 1413734054, "497", "{\n}", "9749bbbde551086170276a8486f05ad1", "The Assembly Inn", "BA1 2QU", "Saturday", "0:00", [ null, "51.3857983", "-2.3619204", null, false ] ]
+, [ 76, "DD0D2B25-2187-42B8-AF20-5C8C923AF084", 76, 1413734054, "497", 1413734054, "497", "{\n}", "1c683ac721e26e978eac6fbf7056b6c5", "Saracens Head", "BA1 5LP", "Saturday", "0:00", [ null, "51.38435155", "-2.35998027", null, false ] ]
+, [ 77, "49525D81-98A4-4827-8FBE-34BADCF7CAC2", 77, 1413734054, "497", 1413734054, "497", "{\n}", "0d3be3ede5c877f6c1f64fd231718428", "New Inn", "BA1 2AY", "Saturday", "0:00", [ null, "51.3828617", "-2.365594847", null, false ] ]
+, [ 78, "6769CAB9-5559-4877-9B1A-F694842548D5", 78, 1413734054, "497", 1413734054, "497", "{\n}", "71721eca23513efca9673a9bfc2693cc", "Alehouse", "BA1 1NG", "Saturday", "0:00", [ null, "51.3812608", "-2.358277", null, false ] ]
+, [ 79, "79B1BE45-834F-4DFF-A0D1-93A622B49172", 79, 1413734054, "497", 1413734054, "497", "{\n}", "ee6adf9ff616ea018b86c4ccf21d443a", "The Chequers", "BA1 2QA", "Saturday", "0:00", [ null, "51.3879331", "-2.3642838", null, false ] ]
+, [ 80, "A84FF485-950A-4DA8-BBCA-F2FE6B10703B", 80, 1413734054, "497", 1413734054, "497", "{\n}", "66c95334a60fb068b2303912168b02f9", "Volunteer Riflemans Arms", "BA1 1BH", "Saturday", "0:00", [ null, "51.38267472", "-2.36058838", null, false ] ]
+, [ 81, "570D74FC-5316-4B0E-A856-BFF7E27989F9", 81, 1413734054, "497", 1413734054, "497", "{\n}", "a15b4088c0631897080b7bdf06a9e5b8", "The West Gate", "BA1 1EL", "Saturday", "0:00", [ null, "51.381538", "-2.361262419", null, false ] ]
+, [ 82, "ACC6CA57-8F21-4C71-A267-B7D574BD7FF6", 82, 1413734054, "497", 1413734054, "497", "{\n}", "810d69e4f9abf372403e70e86c504730", "All Bar One", "BA1 5AQ", "Saturday", "0:00", [ null, "51.38188656", "-2.359384654", null, false ] ]
+, [ 83, "9DE069E1-CFE9-4AF4-BDC9-A6BFE3B74E7B", 83, 1413734054, "497", 1413734054, "497", "{\n}", "6c7b58a5087f6043d1136842c40fcb63", "Lamb & Lion", "BA1 1QU", "Saturday", "0:00", [ null, "51.38001126", "-2.360495", null, false ] ]
+, [ 84, "31F0A403-9357-4ACD-B9E2-C3819CAFE653", 84, 1413734054, "497", 1413734054, "497", "{\n}", "889380c9a1286f7edba2e80c3d1cbf11", "Culture & Cure ", "BA1 5ED", "Saturday", "0:00", [ null, "51.3884761", "-2.3619039", null, false ] ]
+, [ 85, "6244E253-79AA-4B80-8369-CE5B51C0099C", 85, 1413734054, "497", 1413734054, "497", "{\n}", "42d4b64458337b7efa668acc923cd40e", "Ring O Bells", "BA2 4JT", "Saturday", "0:00", [ null, "51.3763999", "-2.3540716", null, false ] ]
+, [ 86, "304C5CA0-C96E-40C0-8823-2BA910FE471B", 86, 1413734054, "497", 1413734054, "497", "{\n}", "231eb7dcbf8281941ff47fa79a30c296", "Lambrettas Bar Bistro", "BA2 4AL", "Saturday", "0:00", [ null, "51.3806683", "-2.3565983", null, false ] ]
+, [ 87, "B57B151A-305F-49F1-9C2C-0ACC7483AAA7", 87, 1413734054, "497", 1413734054, "497", "{\n}", "d3ae759bad00a5e1b67e44e9664dbf9f", "Cosy Club", "BA1 1AP", "Saturday", "0:30", [ null, "51.37903675", "-2.358080198", null, false ] ]
+, [ 88, "97C0A227-2F25-43FB-8184-2D1A8C9A9FCD", 88, 1413734054, "497", 1413734054, "497", "{\n}", "f376f5eb33aa532aa213b14979cc63a1", "Graze Bar, Brewery & Chophouse", "BA1 1SX", "Saturday", "0:30", [ null, "51.3774883", "-2.3568119", null, false ] ]
+, [ 89, "0D3EB9A6-2828-4711-B10B-D2001AD6FF09", 89, 1413734054, "497", 1413734054, "497", "{\n}", "bdaa48ca89a65dd3f31c820ac18516f1", "Devonshire Arms", "BA2 4RY", "Saturday", "0:30", [ null, "51.3692333", "-2.3654974", null, false ] ]
+, [ 90, "04735800-9310-4B55-96C2-CD5444D4AA4F", 90, 1413734054, "497", 1413734054, "497", "{\n}", "ac7787b5b48ffc176fc7abdd4d268ed0", "The Grapes", "BA1 1EQ", "Saturday", "0:30", [ null, "51.3814334", "-2.3614968", null, false ] ]
+, [ 91, "B2F82D97-4A41-4066-ACEC-ED8C2679D990", 91, 1413734054, "497", 1413734054, "497", "{\n}", "c3d4238cf8a04dc2da63ddc390ad08ea", "St. James Wine Vault", "BA1 2TW", "Saturday", "1:00", [ null, "51.3882653", "-2.367554025", null, false ] ]
+, [ 92, "9CCDDE8A-F612-4B1B-87F0-61B2B9FBF19B", 92, 1413734054, "497", 1413734054, "497", "{\n}", "5dc828b9062e79123e9e1482d734eb69", "Star Inn", "BA1 5NA", "Saturday", "1:00", [ null, "51.3871152", "-2.3599813", null, false ] ]
+, [ 93, "98BB8C20-E155-47C1-B156-DD63C45FB3DC", 93, 1413734054, "497", 1413734054, "497", "{\n}", "0a49df1a1184b60f9bf459a59b5f5d0c", "The Salamander", "BA1 2JL", "Saturday", "1:00", [ null, "51.38343425", "-2.362078271", null, false ] ]
+, [ 94, "7DB85A8E-9400-4042-B5B7-C41358F0CCE4", 94, 1413734054, "497", 1413734054, "497", "{\n}", "471ed4fa8be2cccd33f6e51150c6da93", "The Porter", "BA1 2QS", "Saturday", "1:00", [ null, "51.3847244", "-2.3628356", null, false ] ]
+, [ 95, "4E9417AD-143B-4793-814B-E8311D7D7F31", 95, 1413734054, "497", 1413734054, "497", "{\n}", "653a89c4bef36515436c70768846b00f", "Belushi’s", "BA1 2JY", "Saturday", "1:00", [ null, "51.3836937", "-2.3604584", null, false ] ]
+, [ 96, "22E245EB-156F-48E9-B7D5-532E47822FB8", 96, 1413734054, "497", 1413734054, "497", "{\n}", "cafa36dd369c7bed7a985d939d62c0eb", "The Slug And Lettuce", "BA1 2EY", "Saturday", "1:00", [ null, "51.3852571", "-2.3609377", null, false ] ]
+, [ 97, "1B497754-4C4E-4957-BB2A-82C86895A869", 97, 1413734054, "497", 1413734054, "497", "{\n}", "afe461844807cdf829282ccd4199c5b6", "The Bath Brew House", "BA1 2BX", "Saturday", "1:00", [ null, "51.3810366", "-2.3649104", null, false ] ]
+, [ 98, "84B9714D-5AAB-4330-9C3A-3758067EA722", 98, 1413734054, "497", 1413734054, "497", "{\n}", "39014a67a3bf84d09940eac0cc442ea0", "The Cork", "BA1 1EB", "Saturday", "1:00", [ null, "51.3806949", "-2.3623316", null, false ] ]
+, [ 99, "60FB7DB8-298B-4F49-8C71-6BB294CDAD93", 99, 1413734054, "497", 1413734054, "497", "{\n}", "06c30ad5dfb32c705eb16f8b999e44ea", "The Boater", "BA2 4BQ", "Saturday", "1:00", [ null, "51.3831512", "-2.3570824", null, false ] ]
+, [ 100, "B988040D-D63B-472E-B29A-236F3F906358", 100, 1413734054, "497", 1413734054, "497", "{\n}", "c6c009ba66b499e6cf0859b7dea3ff27", "St Christophers Inn", "BA1 2JY", "Saturday", "1:00", [ null, "51.3836937", "-2.3604584", null, false ] ]
+, [ 101, "1D795E6A-777A-440A-8B0D-3429F0D88B8A", 101, 1413734054, "497", 1413734054, "497", "{\n}", "b93f8160ae7865d109973f157f170feb", "Circo Bar & Lounge", "BA2 4AA", "Saturday", "1:00", [ null, "51.3801536", "-2.3569087", null, false ] ]
+, [ 102, "A55531D4-FE14-494D-ADEA-B4BE1CBB4E32", 102, 1413734054, "497", 1413734054, "497", "{\n}", "f7c244651d1724ab5b545fe899421f11", "Marlborough Tavern", "BA1 2LY", "Saturday", "1:00", [ null, "51.38758136", "-2.369683114", null, false ] ]
+, [ 103, "C031CC28-85B8-42AC-8C3F-5EC9AD9FB417", 103, 1413734054, "497", 1413734054, "497", "{\n}", "3e0eb38a7c9537650bccc99314881cb2", "Central Bar", "BA1 1RG", "Saturday", "2:00", [ null, "51.3830983", "-2.3596389", null, false ] ]
+, [ 104, "70D21F68-16E0-4C4F-A62C-AE24850C9122", 104, 1413734054, "497", 1413734054, "497", "{\n}", "c1590d89ca8bb02bf2782aefe8501d4f", "Back To Mine", "BA1 5LS", "Saturday", "2:00", [ null, "51.38531725", "-2.3604623", null, false ] ]
+, [ 105, "2E9B6CA1-CA80-4D7F-A09B-5ADB4CCB7044", 105, 1413734054, "497", 1413734054, "497", "{\n}", "dd7d32a3aee64368dcb8112bac95ec57", "Gascoyne Place", "BA1 1EY", "Saturday", "2:00", [ null, "51.3824068", "-2.361809", null, false ] ]
+, [ 106, "055670BA-94DB-4B1B-A44D-DE48E06049C2", 106, 1413734054, "497", 1413734054, "497", "{\n}", "6b6e621bb59cd1dd91a20ccbd1a58593", "Common Room", "BA1 2QP", "Saturday", "2:00", [ null, "51.38615989", "-2.361793362", null, false ] ]
+, [ 107, "F13EC6FA-E4D4-46DC-9895-365BB239C6E8", 107, 1413734054, "497", 1413734054, "497", "{\n}", "73fb9c8b2211a1f27ef12393c85e2bf7", "Flan O’Briens", "BA1 1EP", "Saturday", "2:00", [ null, "51.38133209", "-2.36165962", null, false ] ]
+, [ 108, "2C244311-CAAC-4F08-88B1-A042B49ADC19", 108, 1413734054, "497", 1413734054, "497", "{\n}", "cd781f1c27109b0208152aae491a2af0", "club XL", "BA1 5BG", "Saturday", "3:00", [ null, "51.3874595", "-2.3592388", null, false ] ]
+, [ 109, "0A77064F-48BF-4BE5-A4E8-8EA0AAD26F3E", 109, 1413734054, "497", 1413734054, "497", "{\n}", "fb5c27a19d4a70a7941240f760130449", "Sub 13", "BA1 2EE", "Saturday", "3:00", [ null, "51.38517287", "-2.362056346", null, false ] ]
+, [ 110, "7060C2F5-388F-406D-AD7D-C23CC37D968B", 110, 1413734054, "497", 1413734054, "497", "{\n}", "e6fbf194a50431d28b41540d325524a2", "The Second Bridge", "BA1 1JQ", "Saturday", "3:00", [ null, "51.3789327", "-2.3571527", null, false ] ]
+, [ 111, "1469C675-A27C-4D5A-82C9-0C2B7122FAC0", 111, 1413734054, "497", 1413734054, "497", "{\n}", "87fab7232217f7925e152150172e3b86", "Po Na Na", "BA2 4AL", "Saturday", "3:00", [ null, "51.3806683", "-2.3565983", null, false ] ]
+, [ 112, "9F21B996-ED03-47BE-BBA6-926A47E4C736", 112, 1413734054, "497", 1413734054, "497", "{\n}", "bd86587825f860a5b08160668f881168", "Zero Zero", "BA1 2EB", "Saturday", "3:00", [ null, "51.384999", "-2.361218", null, false ] ]
+, [ 113, "43709891-BEE4-44DB-A741-752A3E8C41DF", 113, 1413734054, "497", 1413734054, "497", "{\n}", "30ee0fc077faca7fa54fe63f9371ae81", "Moles", "BA1 2EN", "Saturday", "4:00", [ null, "51.3847244", "-2.3628356", null, false ] ]
+, [ 114, "15B8D6C6-BA12-44DA-BD0E-25267E91481B", 114, 1413734054, "497", 1413734054, "497", "{\n}", "6c29450048261ec21a304e04d79530d4", "The Weir Lounge", "BA2 6PA", "Saturday", "4:00", [ null, "51.3871585", "-2.3525749", null, false ] ]
+, [ 115, "10DD5978-1BF9-428A-8EF1-10060B38AF97", 115, 1413734054, "497", 1413734054, "497", "{\n}", "54fd1c6978f3d9a509e14492edddfc63", "Revolution", "BA1 2EB", "Sunday", "0:00", [ null, "51.38501", "-2.3615183", null, false ] ]
+, [ 116, "2504A3A4-F391-49DF-8265-976258CACAF7", 116, 1413734054, "497", 1413734054, "497", "{\n}", "ad46e6a195494f82b831ecee0f385444", "The Curfew Inn", "BA1 5DG", "Sunday", "0:00", [ null, "51.3900424", "-2.3571185", null, false ] ]
+, [ 117, "6D8D6C57-14D5-42F9-9F7C-52618C4CA479", 117, 1413734054, "497", 1413734054, "497", "{\n}", "84fc0bd072b465f0a768fa816e98a0d8", "Slug and Lettuce", "BA1 2EE", "Sunday", "0:00", [ null, "51.38517287", "-2.362056346", null, false ] ]
+, [ 118, "41AD283E-BA19-400E-A63C-A7ED8766FC31", 118, 1413734054, "497", 1413734054, "497", "{\n}", "ea3d45ba7670a766860d55b784bf03b1", "Ring O Bells", "BA2 4JT", "Sunday", "0:00", [ null, "51.3763999", "-2.3540716", null, false ] ]
+, [ 119, "6141CE1E-21AC-4746-8EFC-33CEFF9B0604", 119, 1413734054, "497", 1413734054, "497", "{\n}", "ae0c66364f6058eeb0ad20dcd33756a0", "Star Inn", "BA1 5NA", "Sunday", "0:00", [ null, "51.3871152", "-2.3599813", null, false ] ]
+, [ 120, "1E874667-482A-40DE-BF41-8EF131607D30", 120, 1413734054, "497", 1413734054, "497", "{\n}", "a2d2ea5bb2f5e808bf0b0e525c3a7950", "The Porter", "BA1 2QS", "Sunday", "0:30", [ null, "51.3847244", "-2.3628356", null, false ] ]
+, [ 121, "A20F03AC-C9EB-48F6-875E-FE08352BCA9B", 121, 1413734054, "497", 1413734054, "497", "{\n}", "8febd6e4ea4b875cff2d965e9acadb71", "Circo Bar & Lounge", "BA2 4AA", "Sunday", "23:00", [ null, "51.3801536", "-2.3569087", null, false ] ]
+, [ 122, "AA854D81-26EB-4A7C-8B3A-0433609C11A7", 122, 1413734054, "497", 1413734054, "497", "{\n}", "0e861d0905c2216c248f0b4accdb9393", "Moles", "BA1 2EN", "Sunday", "0:00", [ null, "51.3847244", "-2.3628356", null, false ] ]
+, [ 123, "804603C5-EB06-4041-A75F-A3FD86AFF121", 123, 1413734054, "497", 1413734054, "497", "{\n}", "762e0f6e79a152dcd15ee051f43bf02b", "Flan O’Briens", "BA1 1EP", "Sunday", "2:00", [ null, "51.38133209", "-2.36165962", null, false ] ]
+, [ 125, "6667F759-9D4F-448A-AF6E-F88F584B3E27", 125, 1413734054, "497", 1413734054, "497", "{\n}", "121e494a82562e3abcb492b65ef8f72e", "New Inn", "BA1 2AY", "Sunday", "23:00", [ null, "51.3828617", "-2.365594847", null, false ] ]
+, [ 126, "9E2FC4D6-D239-4D0D-B4DE-D25C8DEA1562", 126, 1413734054, "497", 1413734054, "497", "{\n}", "7c4a6a9e001e083aaeea77b4af288b71", "Volunteer Riflemans Arms", "BA1 1BH", "Sunday", "23:00", [ null, "51.38267472", "-2.36058838", null, false ] ]
+, [ 127, "2730AEAF-375D-41D0-B08A-206575F18F90", 127, 1413734054, "497", 1413734054, "497", "{\n}", "a93ebf2d1cecec3635f633ddc8c1291d", "The West Gate", "BA1 1EL", "Sunday", "23:00", [ null, "51.381538", "-2.361262419", null, false ] ]
+, [ 128, "792AC800-42B0-4028-9DB4-A4D53CAFD080", 128, 1413734054, "497", 1413734054, "497", "{\n}", "a201e8fe064d739890fcf70fdf49a9fa", "Graze Bar, Brewery & Chophouse", "BA1 1SX", "Sunday", "23:00", [ null, "51.3774883", "-2.3568119", null, false ] ]
+, [ 129, "80D74151-816F-438F-ABE4-DB2EDFDFB4DC", 129, 1413734054, "497", 1413734054, "497", "{\n}", "37a80ded07b089cf2d0a85223c660b09", "Devonshire Arms", "BA2 4RY", "Sunday", "23:00", [ null, "51.3692333", "-2.3654974", null, false ] ]
+, [ 130, "9F76824E-60BA-4BAC-9C02-7C2F11EE3EBE", 130, 1413734054, "497", 1413734054, "497", "{\n}", "57aca3ea691268d56985958ceb164e04", "The Salamander", "BA1 2JL", "Sunday", "23:00", [ null, "51.38343425", "-2.362078271", null, false ] ]
+, [ 131, "4999CE57-30A9-4F95-BF0A-AFD4371C1704", 131, 1413734054, "497", 1413734054, "497", "{\n}", "dcfef3ae04b80ae37736ecf3f3067f30", "Belushi’s", "BA1 2JY", "Sunday", "23:00", [ null, "51.3836937", "-2.3604584", null, false ] ]
+, [ 132, "8DB78BED-B75A-40F5-8C03-6602C5301C87", 132, 1413734054, "497", 1413734054, "497", "{\n}", "6eb1781fe94765b4ab1f3cec7998c1d5", "The Bath Brew House", "BA1 2BX", "Sunday", "23:00", [ null, "51.3810366", "-2.3649104", null, false ] ]
+, [ 133, "39FBDED6-6640-47CD-8810-C30FC32E108F", 133, 1413734054, "497", 1413734054, "497", "{\n}", "e16ad498b2b52711a54da80975c4cba5", "The Cork", "BA1 1EB", "Sunday", "23:00", [ null, "51.3806949", "-2.3623316", null, false ] ]
+, [ 134, "D4A6E745-327B-4A88-B3D7-2A2D685DA6E7", 134, 1413734054, "497", 1413734054, "497", "{\n}", "cc3424812c12ae17b07023364e8b168c", "The Ram At Widcombe", "BA2 4LD", "Sunday", "23:00", [ null, "51.3765542", "-2.3546397", null, false ] ]
+, [ 135, "7214B9ED-4DF4-4711-89FD-EF8470888819", 135, 1413734054, "497", 1413734054, "497", "{\n}", "4bfb4cdf4575ef7d986643ace11b3a52", "The Crown Inn", "BA2 6NY", "Sunday", "23:00", [ null, "51.3869586", "-2.3521468", null, false ] ]
+, [ 136, "F3C95045-C0CE-436A-BF1E-808AF28FFA36", 136, 1413734054, "497", 1413734054, "497", "{\n}", "962adbfbd4ca6aa5378d8a737d16b61c", "The Old Green Tree", "BA1 2JZ", "Sunday", "23:00", [ null, "51.3830553", "-2.36047", null, false ] ]
+, [ 137, "3B750E84-2009-43CA-935A-91C9BB3372B1", 137, 1413734054, "497", 1413734054, "497", "{\n}", "a3d73463ec15f366d42798e030138279", "Joya", "BA2 4AN", "Sunday", "23:00", [ null, "51.3826383", "-2.3581334", null, false ] ]
+, [ 138, "0B6001A4-8BD0-4CAD-A2E7-63EB915D4FC0", 138, 1413734054, "497", 1413734054, "497", "{\n}", "cd3f8f5ba3a5b5f1e19cdd85397bb116", "The Barley", "BA2 6NZ", "Sunday", "23:30", [ null, "51.3868055", "-2.3521925", null, false ] ]
+, [ 139, "4D1F9144-5876-4DCE-BCD4-A2E83E3EAA21", 139, 1413734054, "497", 1413734054, "497", "{\n}", "67e30c012a9072270ee78b7de0f09830", "The Grapes", "BA1 1EQ", "Sunday", "23:30", [ null, "51.3814334", "-2.3614968", null, false ] ]
+, [ 140, "F161AB80-A317-4DAA-8522-02A098208DAA", 140, 1413734054, "497", 1413734054, "497", "{\n}", "73e27e5790432131d90d3c480586b5ca", "St Christophers Inn", "BA1 2JY", "Sunday", "23:30", [ null, "51.3836937", "-2.3604584", null, false ] ]
+, [ 141, "8491EEB3-CED0-4431-8A22-DFBCC6FE7756", 141, 1413734054, "497", 1413734054, "497", "{\n}", "064592c68da5e672d6d5ed28fdc99943", "Gascoyne Place", "BA1 1EY", "Sunday", "23:30", [ null, "51.3824068", "-2.361809", null, false ] ]
+, [ 142, "AEC451C3-C0FA-46C1-8D5F-AC96A4B42017", 142, 1413734054, "497", 1413734054, "497", "{\n}", "eb8add1bfe5b931749f77957046a0912", "Coeur De Lion", "BA1 5AR", "Sunday", "23:30", [ null, "51.3823273", "-2.3602477", null, false ] ]
+, [ 143, "37E67B1E-9F8E-4DDB-9204-9433701E33B0", 143, 1413734054, "497", 1413734054, "497", "{\n}", "49bf97cce88cfbf2baf553087f6f9895", "The Trinity", "BA1 2DA", "Sunday", "23:30", [ null, "51.38081959", "-2.36315153", null, false ] ]
+, [ 144, "9D658E14-2E92-44E5-9F05-8079DA2A4925", 144, 1413734054, "497", 1413734054, "497", "{\n}", "f28531868270e5be437d5a7fbce5b90e", "King Of Wessex", "BA1 2BX", "Sunday", "23:30", [ null, "51.3810366", "-2.3649104", null, false ] ]
+, [ 145, "93F41F9F-DD7F-4AC6-B131-D0A2670B9BA8", 145, 1413734054, "497", 1413734054, "497", "{\n}", "7aae233f2a9d0a2d65cf5dfc9892562c", "Revolution", "BA1 2EB", "Tuesday", "0:00", [ null, "51.38501", "-2.3615183", null, false ] ]
+, [ 146, "5CDCD667-7A0D-4B5B-A830-41E933CBC442", 146, 1413734054, "497", 1413734054, "497", "{\n}", "fe28f8ebc9153a1b5463f7754455bc87", "The Canary", "BA1 1HE", "Tuesday", "0:00", [ null, "51.3826217", "-2.3618477", null, false ] ]
+, [ 147, "DFDEC99C-8C1C-40A0-9E2F-199FC631B802", 147, 1413734054, "497", 1413734054, "497", "{\n}", "8330fdc1e793a78f28e2c5e1dcea2774", "St. James Wine Vault", "BA1 2TW", "Tuesday", "0:00", [ null, "51.3882653", "-2.367554025", null, false ] ]
+, [ 148, "315D6869-D20F-4673-8500-C77F1EA45266", 148, 1413734054, "497", 1413734054, "497", "{\n}", "c9792a225228f9b70be0618b6843bd6d", "Star Inn", "BA1 5NA", "Tuesday", "0:00", [ null, "51.3871152", "-2.3599813", null, false ] ]
+, [ 149, "0A676E0D-2B82-4B4C-8037-38D4C290C35B", 149, 1413734054, "497", 1413734054, "497", "{\n}", "f44326831c8388dc469b74eb95b906bf", "The Salamander", "BA1 2JL", "Tuesday", "0:00", [ null, "51.38343425", "-2.362078271", null, false ] ]
+, [ 150, "26BD4147-B3B9-4A4A-A283-888419E17DE0", 150, 1413734054, "497", 1413734054, "497", "{\n}", "bb54d7088db5a43003175f5022ceff83", "The Porter", "BA1 2QS", "Tuesday", "0:00", [ null, "51.3847244", "-2.3628356", null, false ] ]
+, [ 151, "A7521D5D-54DD-4169-9DF7-56F6D1D32054", 151, 1413734054, "497", 1413734054, "497", "{\n}", "4ae433ef81c3bf9e14bca033f4b0de76", "Belushi’s", "BA1 2JY", "Tuesday", "0:00", [ null, "51.3836937", "-2.3604584", null, false ] ]
+, [ 152, "2AF606CB-4C27-42D6-99D4-84B810B5358E", 152, 1413734054, "497", 1413734054, "497", "{\n}", "8906d70c1778801f6b0e5122982c4f83", "The Cork", "BA1 1EB", "Tuesday", "0:00", [ null, "51.3806949", "-2.3623316", null, false ] ]
+, [ 153, "21E95EE8-8C4E-47B8-8FDE-FC927A400731", 153, 1413734054, "497", 1413734054, "497", "{\n}", "51ef8b1af865e757bbd89639a46742a0", "The Boater", "BA2 4BQ", "Tuesday", "0:00", [ null, "51.3831512", "-2.3570824", null, false ] ]
+, [ 154, "E8B3F646-DB60-42B2-B29C-3A77E4648A13", 154, 1413734054, "497", 1413734054, "497", "{\n}", "6207807a053923019fc6eda84c5d14e6", "The Slug And Lettuce", "BA1 2EY", "Tuesday", "0:00", [ null, "51.3852571", "-2.3609377", null, false ] ]
+, [ 155, "7F459938-75AB-4B2C-BAF5-5EDC5432A299", 155, 1413734054, "497", 1413734054, "497", "{\n}", "3cf06e78b695a125c01b7730c15bd84f", "The Curfew Inn", "BA1 5DG", "Tuesday", "0:00", [ null, "51.3900424", "-2.3571185", null, false ] ]
+, [ 156, "377E17D9-3DD7-4413-B9F4-25CB17D1B7DF", 156, 1413734054, "497", 1413734054, "497", "{\n}", "4be3b8577c4e637aa3a93cbdfe9c52cb", "Slug and Lettuce", "BA1 2EE", "Tuesday", "0:00", [ null, "51.38517287", "-2.362056346", null, false ] ]
+, [ 157, "9A8AA45B-CDE4-4F99-9A9A-5FACE04A818A", 157, 1413734054, "497", 1413734054, "497", "{\n}", "00eb23eea12b384f96f6e5a288d53bd0", "Sub 13", "BA1 2EE", "Tuesday", "0:00", [ null, "51.38517287", "-2.362056346", null, false ] ]
+, [ 158, "85BB0FA8-E033-4D08-894B-872F9CC765B8", 158, 1413734054, "497", 1413734054, "497", "{\n}", "bb1e29e23b61882765e70f9026acc2eb", "club XL", "BA1 5BG", "Tuesday", "0:00", [ null, "51.3874595", "-2.3592388", null, false ] ]
+, [ 159, "A42D8C46-A26A-4FDF-AAE4-0BF155F38917", 159, 1413734054, "497", 1413734054, "497", "{\n}", "7db5111797ca0d2a88986641330195d6", "St Christophers Inn", "BA1 2JY", "Tuesday", "1:00", [ null, "51.3836937", "-2.3604584", null, false ] ]
+, [ 160, "3751238E-A45E-446F-A13A-8F2D665E2FB6", 160, 1413734054, "497", 1413734054, "497", "{\n}", "ff246d721010346141e0b0bd87f4bcd1", "Back To Mine", "BA1 5LS", "Tuesday", "2:00", [ null, "51.38531725", "-2.3604623", null, false ] ]
+, [ 161, "04492E2D-D6B2-4B91-A65A-1F728ADF5FAA", 161, 1413734054, "497", 1413734054, "497", "{\n}", "0ea0f9d104b1a1011aa2316fde36b44a", "Gascoyne Place", "BA1 1EY", "Tuesday", "2:00", [ null, "51.3824068", "-2.361809", null, false ] ]
+, [ 162, "E5C31165-26B9-4101-95CD-69C37360AF0B", 162, 1413734054, "497", 1413734054, "497", "{\n}", "34db39e21c50c82cad643341a09e4be7", "Common Room", "BA1 2QP", "Tuesday", "2:00", [ null, "51.38615989", "-2.361793362", null, false ] ]
+, [ 163, "87A433C1-7280-46CF-AAC7-A5E2050C0620", 163, 1413734054, "497", 1413734054, "497", "{\n}", "238a8e6d6abb2036373e55a0f10936e1", "The Second Bridge", "BA1 1JQ", "Tuesday", "2:00", [ null, "51.3789327", "-2.3571527", null, false ] ]
+, [ 164, "FF751299-F063-435E-B10C-1A728D608F5B", 164, 1413734054, "497", 1413734054, "497", "{\n}", "0695a4a1bc04826d61a0d14afc6fc5a7", "Po Na Na", "BA2 4AL", "Tuesday", "3:00", [ null, "51.3806683", "-2.3565983", null, false ] ]
+, [ 165, "D45B0F19-BCC6-486D-AE92-B7C23BF4D207", 165, 1413734054, "497", 1413734054, "497", "{\n}", "6b66a185ba3fcc35428d0f65c39eed03", "Moles", "BA1 2EN", "Tuesday", "3:00", [ null, "51.3847244", "-2.3628356", null, false ] ]
+, [ 166, "C38FE162-1D2F-4527-94DC-96B80FEE2AF9", 166, 1413734054, "497", 1413734054, "497", "{\n}", "7e5d46c62d7489d4005a60c9123484a8", "The Weir Lounge", "BA2 6PA", "Tuesday", "4:00", [ null, "51.3871585", "-2.3525749", null, false ] ]
+ ]
+}
