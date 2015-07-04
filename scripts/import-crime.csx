@@ -27,7 +27,7 @@ using (var json = File.OpenRead(CRIME_PATH))
 
             var coordinates = ja[11].ToObject<JArray>();
             var lat = coordinates[1].Value<string>();
-            var lon = coordinates[1].Value<string>();
+            var lon = coordinates[2].Value<string>();
 
             var streetName = ja[12].Value<string>();
             var sourceType = ja[13].Value<string>();
